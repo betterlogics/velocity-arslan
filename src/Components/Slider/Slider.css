@@ -1,0 +1,169 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 10pc;
+    object-fit: cover;
+  }
+  .first{
+   position: relative;
+   top: 12%;
+   margin-top:8% ;
+  
+   
+  }
+  .sed{
+    
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .image{
+    width: auto;
+    height: 3pc;
+  }
+
+  .middle {
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    background-color:orangered;
+    overflow: hidden;
+    width: 0;
+    height: 70%;
+    transition: .5s ease;
+    opacity: 0.8;
+  }
+ 
+  
+  .sed:hover .middle {
+    width: 100%;
+  }
+  
+  .text {
+    color: white;
+    width: 32%;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 50pc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .back2{
+    width: 100%;
+    z-index: 2;
+    
+  }
+  .class{
+    font-size: 126%;
+    color: black;
+   text-align: center;
+  }
+  .para{
+    text-align: center;
+    width: 55%;
+  }
+  .img2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+  
+    position: relative;
+    top: 2pc;
+    left: 219px;
+
+  }
+  .carousel-control-prev-icon{
+    background-color: orangered;
+  }
+  .carousel-control-next-icon{
+    background-color: orangered;
+  }
+  .new1{
+    border: 2px solid orangered;
+    width: 9%;
+    opacity: 6;
+   margin-top: 10%;
+   margin-left: 42%;
+  }
+  
+  @media only screen and (max-width: 480px) {
+ 
+    .img2{
+      
+      
+      position: relative;
+      top: 2pc;
+      left: 93px;
+  
+    }
+    .class{
+      font-size: 126%;
+      color: black;
+     text-align: center;
+    }
+    .para{
+      text-align: center;
+    width: 84%;
+
+    }
+    .new1{
+      
+      margin-top: 15%;
+     
+     }
+
+  }
+  @media (min-width: 481px) and (max-width: 800px) {
+    .para{
+      text-align: center;
+    width: 63%;
+
+    }
+    .img2{
+      
+      justify-items: center;
+      position: relative;
+      top: 2pc;
+      left: 292px;
+  
+    }
+    .class{
+      font-size: 126%;
+      color: black;
+     text-align: center;
+    }
+    
+  }
+  

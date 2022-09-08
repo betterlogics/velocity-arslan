@@ -1,0 +1,26 @@
+.p2{
+   text-align: center;
+   padding-top: 8%;
+}
+.p21{
+    font-size: 20px;
+    background-color: orangered;
+    padding: 12px;
+    color: white;
+    
+width: fit-content;
+position: relative;
+top: 45%;
+margin: auto;
+border-radius: 50pc;
+}
+.p21 a{
+  color: white;
+  text-decoration: none;
+
+}
+.p21 a:hover{
+    color: rgb(201, 200, 200);
+    
+  
+  }

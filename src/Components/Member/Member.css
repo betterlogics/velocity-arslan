@@ -1,0 +1,43 @@
+.ico2{
+    color: orangered;
+}
+.form-select{
+    width: 20%;
+}
+.l51{
+      
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 25%;
+ }
+
+.pir{
+ text-align: left;
+    color: rgb(78, 78, 78);
+    
+}
+.btn2{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+.btn2:hover{
+   background-color: black;
+   color:orangered;
+   transition: 1s;
+}
+@media screen and (max-width:500px) {
+    .form-select{
+        width: 100%;
+    }
+    .l51{
+      
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+}

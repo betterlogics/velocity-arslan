@@ -1,0 +1,113 @@
+
+.logos{
+    width: 16%;
+}
+.me-auto{
+ 
+ margin-left: 12px;
+}
+.nav{
+
+ background-color: rgb(5, 5, 22);
+ z-index: 10;
+ width: 100%;
+ color: white;
+}
+Nav.Link:hover{color: orangered;
+
+}
+/* slider animation  */
+.h1{
+color: orangered;
+font-size: 4pc;
+margin-bottom: 8%;
+animation-name: left;
+animation-duration: 1s;
+}
+/* @keyframes left {
+    0% { right: 23%;  }
+    50%{ right: 23%;
+    }
+  } */
+.p{
+    color: white;
+    font-size: 1pc;
+    margin-bottom: 12%;
+
+}
+.home{
+  padding-left: 17px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: left;
+}
+.home:hover{
+ color: orangered;
+ 
+}
+/* .nav{
+ 
+  position: fixed;
+  top: 0%;
+} */
+
+
+
+
+
+
+
+.btn{
+    color: white;
+    border: 2px solid orangered ;
+    border-radius: 50pc;
+}
+.btn:hover{
+    color: white;
+    border: 2px solid orangered ;
+    border-radius: 50pc;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropbtn {
+   background-color: rgb(5, 5, 22);
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:orangered;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  @media screen and (max-width: 614px) 
+ {
+  .h1{
+    visibility: hidden;
+   
+
+  }
+
+ }

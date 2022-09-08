@@ -1,0 +1,17 @@
+
+    .swiper-slide .image2 {
+        display: block;
+        width: 64%;
+        height: 70%;
+        object-fit: cover;
+        margin-left: 42px;
+        margin-top: 13%;
+        margin-bottom: 13%;
+      
+    }
+.carousel-control-next{
+    margin-left: 12px;
+}
+.carousel-control-prev{
+margin-right: 12px;
+}

@@ -1,0 +1,77 @@
+.main{
+    background-color: rgb(231, 231, 231);
+}
+.trainer{
+    text-align: center;
+    font-size: 29px;
+    color: black;
+}
+/* overlay */
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: orangered;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .3s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    width: 80%;
+    border: none;
+white-space: unset;
+   
+  }
+  .hr{
+    background-color: rgb(255, 255, 255);
+   opacity: 5;
+   width: 50%;
+   margin-left: 23%;
+   font-weight: bold;
+   
+  }
+  .new{
+    border: 2px solid orangered;
+    width: 9%;
+    opacity: 6;
+   margin-left: 45%;
+  }
+.trainers{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 500px) {
+    .trainers{
+       
+        grid-template-columns: 1fr;
+        } 
+}
