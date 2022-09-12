@@ -1,4 +1,6 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -27,25 +29,29 @@ function Header() {
               <Link to="/Servamain"  className="home ">SERVICES</Link>
               <Link to="/Membermain"  className="home  ">BECOME A MEMBER</Link>
               <div class="dropdown mb-1">
-  <Link to="/"  className="home ">CLASSES</Link>
-  <div class="dropdown-content">
-    <Link to="/">Link 1</Link>
+  <Link to="/Classmain"  className="home ">CLASSES</Link>
+  {/* <div class="dropdown-content">
+    <Link to="/">Shadule</Link>
     
-  </div>
+  </div> */}
 </div>
-              <Link to="/"  className="home ">GALLERY</Link>
-              <Link to="/"  className="home ">BLOG</Link>
+              <Link to="/Gallerymain"  className="home ">GALLERY</Link>
+              <Link to="/Blogmain"  className="home ">BLOG</Link>
               <Link to="/Contactmain"  className="home ">CONTACT</Link>
             </Nav>
-            {/* <Form className="  mt-4 d-flex">
+            {/* <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2"/>
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form> */}
+            <Form className="fff  mt-4 d-flex">
                   <Form.Control
                     type="search"
                     placeholder="Search"
                     className="me-2"
                     aria-label="Search"
                   />
-                  <Button variant="outline-success">Search</Button>
-                </Form> */}
+                  <Button className="bbb" >Search</Button>
+                </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>

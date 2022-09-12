@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
   import "./Change.css"
 class Change extends Component {
   render() {
@@ -16,9 +17,9 @@ class Change extends Component {
         <h2 className='ready'> READY TO CHANGE YOUR PHYSIQUE</h2>
         <h4 className='read'>Avail Life time Registration  NOWONLY  <p className='p'>IN10k</p>
 </h4>
-<button type="button" class=" bot btn ">
+<Link to='/Membermain' type="button" class=" bot btn ">
                    BECOME A MEMBER
-                  </button>
+                  </Link>
       </div>
     );
   }

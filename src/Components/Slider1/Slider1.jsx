@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 import Carousel from "react-bootstrap/Carousel";
 
 import first from "../Assets/velocity.jpg";
@@ -14,7 +14,7 @@ function Slider1() {
           <Carousel.Caption>
             <h1 className="h1">POLISH YOUR SOUL TO GET IT RIGHT</h1>
             <p className="p">Yoga Class will be started by 1st June 22, Limited Slots available!</p>
-            <button type="button" class="btn mb-3">Apply Online</button>
+            <Link to='/Membermain' type="button" class="btn  mb-3">Apply Online</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -22,7 +22,7 @@ function Slider1() {
           <Carousel.Caption>
             <h1 className="h1">10K REGISTRATION FEE FOR LIFETIME</h1>
             <p className="p">Mega SUMMER Offer, SAVE BIG on lifetime Registrations. Limited Slots available!</p>
-            <button type="button" class="btn  mb-3">Apply Online</button>
+            <Link to='/Membermain' type="button" class="btn  mb-3">Apply Online</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -32,7 +32,7 @@ function Slider1() {
             <p className="p">
             Ready to change your physique, but can't work out in the gym?
             </p>
-            <button type="button" class="btn mb-3">Apply Online</button>
+            <Link to='/Membermain' type="button" class="btn  mb-3">Apply Online</Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

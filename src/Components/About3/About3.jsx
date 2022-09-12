@@ -25,7 +25,7 @@ class About3 extends Component {
                 after all
               </p>
             </div>
-            <div className="col-lg-5 col-md-6 col-sm-12 ">
+            <div className=" nicha col-lg-5 col-md-6 col-sm-12 ">
               .
               <p class="skill html mt-5">
                 <span class="level"></span>

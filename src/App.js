@@ -11,6 +11,9 @@ import Privacymain from './Components/Privacymain';
 import Servamain from './Components/Servamain';
 import Membermain from './Components/Membermain';
 import Contactmain from './Components/Contactmain';
+import Gallerymain from './Components/Gallerymain';
+import Blogmain from './Components/Blogmain';
+import Classmain from './Components/Classmain';
 function App() {
   return (
     <div className="App">
@@ -23,6 +26,9 @@ function App() {
     <Route exact path="/Servamain" element={<Servamain/>}/>
     <Route exact path="/Membermain" element={<Membermain/>}/>
     <Route exact path="/Contactmain" element={<Contactmain/>}/>
+    <Route exact path="/Gallerymain" element={<Gallerymain/>}/>
+    <Route exact path="/Blogmain" element={<Blogmain/>}/>
+    <Route exact path="/Classmain" element={<Classmain/>}/>
   </Routes>
   <Footer/>
   <Footer2/>

@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create a column layout with Flexbox */
+  .row {
+    display: flex;
+  }
+  
+  /* Left column (menu) */
+  .left {
+    flex: 35%;
+    padding: 15px 0;
+    
+  }
+  
+  .left h2 {
+    padding-left: 8px;
+    text-align: start;
+  }
+  
+  /* Right column (page content) */
+  .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 65%;
+    padding: 15px;
+    
+  }
+  
+  /* Style the search box */
+  #mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: start;
+  }
+  
+  #myMenu li a:hover {
+   color: orangered;
+  }
+  .date{
+    background-color: orangered;
+    width: 5%;
+    position: absolute;
+    left: 3%;
+    font-size: 15px;
+    color: white;
+    
+}
+.date2{
+    background-color: orangered;
+    width: 5%;
+    position: absolute;
+    margin-left: 22px;
+    font-size: 15px;
+    color: white;
+    
+}
+.text-align-left{
+    text-align: left;
+}
+@media screen and (max-width:700px) {
+    .right {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+        
+      }
+      .image1{
+        width: 100%;
+      }
+      .date{
+        
+        width: 20%;
+      
+        
+    }
+    .date2{
+       
+        width: 20%;
+        ;
+        
+    }
+}

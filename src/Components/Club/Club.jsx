@@ -84,11 +84,11 @@ function Club() {
         slidesPerView={1}
         spaceBetween={10}
         loop={true}
-        pagination={{
-          clickable: true,
+    //     pagination={{
+    //       clickable: true,
           
-        }
-    }
+    //     }
+    // }
         breakpoints={{
           640: {
             slidesPerView: 1,

@@ -6,8 +6,8 @@ import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillYoutube } from 'react-icons/ai';
 export default function Footer() {
   return (
-<div className="maan bg-dark">
-<div class=" l33 container text-light bg-dark">
+
+<div class=" l33 container-fluid text-light bg-dark">
   <div class="row">
     <div class="bb col-lg-3 col-md-6 col-sm-12 mt-5  bg-dark">
         <h4>About Company</h4>
@@ -53,11 +53,9 @@ The offer is only valid on 6 September</p>
     </div>
   </div>
 </div>
-<div className='end'>
-© Copyright Velocity Health & Fitness 2019. All Right Reserved. Designed & Developed by Team Ipsum !
-</div>
 
-        </div>
+
+        
 
   )
 }

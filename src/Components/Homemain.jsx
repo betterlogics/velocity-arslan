@@ -25,6 +25,7 @@ function Homemain() {
      <Latest/>
      <Change/>
      <Logos/> 
+     
     </div>
   )
 }

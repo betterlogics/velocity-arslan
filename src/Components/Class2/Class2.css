@@ -1,0 +1,17 @@
+.clas{
+    color: rgb(250, 250, 250);
+    background-color: orangered;
+    width: 75%;
+   font-size: 20px;
+    margin-top: -6%;
+    z-index: 1;
+}
+.w-101{
+   padding-right: 2%;
+z-index: 0.5;
+}
+
+.clas:hover{
+    color: orangered;
+    background-color: rgb(255, 255, 255);
+}

@@ -16,10 +16,13 @@ font-size: 15px;
 .mt-1{
     color: orangered;
     font-size: 20px;
+  
 }
 
 .mx-1{
     font-size: 20px;
+      text-decoration: none;
+      color: white;
 }
 .mx-1 :hover{
     color: orangered;
